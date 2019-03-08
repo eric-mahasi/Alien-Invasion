@@ -1,13 +1,13 @@
 import pygame
 from pygame.sprite import Group
 
-import game_functions as gf
-from alien import Alien
-from button import Button
-from game_stats import GameStats
-from scoreboard import ScoreBoard
-from settings import Settings
-from ship import Ship
+from src import game_functions as gf
+from src.alien import Alien
+from src.button import Button
+from src.game_stats import GameStats
+from src.scoreboard import ScoreBoard
+from src.settings import Settings
+from src.ship import Ship
 
 
 def rungame():

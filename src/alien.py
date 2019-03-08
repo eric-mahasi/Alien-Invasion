@@ -1,3 +1,5 @@
+import os
+
 import pygame
 from pygame.sprite import Sprite
 
@@ -11,7 +13,7 @@ class Alien(Sprite):
         self.sett = sett
 
         # Load the alien image and set its rect attributes.
-        self.image = pygame.image.load('assets/alien.bmp')
+        self.image = pygame.image.load(os.path.join('assets/', 'alien.bmp'))
         self.rect = self.image.get_rect()
 
         # Start each new alien near the top left of the screen.
