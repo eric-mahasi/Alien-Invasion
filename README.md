@@ -59,3 +59,6 @@ for details on submitting pull requests.
 This game is licensed under the MIT license - see the [LICENSE.md](https://github.com/eric-mahasi/Alien-Invasion/blob/master/LICENSE.md) for
 details.
 
+# Acknowledgments
+This game is inspired by Project 1 found in the great book [*Python
+Crash Course: A Hands-on, Project-Based Introduction to Programming*](https://www.amazon.com/Python-Crash-Course-Project-Based-Introduction/dp/1593276036).
